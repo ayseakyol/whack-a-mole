@@ -1,4 +1,6 @@
+
 window.onload = () => {
-  const theMole = new Board(Mole, 10, 10);
-  document.getElementById("root").appendChild(theMole.render());
+    // debugger
+    const theWorm = new Board(Mole, 3, 3);
+    document.getElementById('root').appendChild(theWorm.render());
 };
